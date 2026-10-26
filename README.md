@@ -41,7 +41,7 @@ este repositório faz isso sem inventar experiência.
    - Codex CLI (OpenAI), Gemini CLI, ou o Copilot / Cursor dentro do VS Code.
 4. **Baixe o projeto:**
    ```powershell
-   git clone <URL-deste-repositorio>
+   git clone https://github.com/mateussatoh/curriculo-por-vaga.git
    cd curriculo-por-vaga
    ```
 5. **Teste o PDF:**
