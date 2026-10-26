@@ -1,0 +1,11 @@
+# Arquivos temporarios do LaTeX
+.aux-build/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Config local de agentes
+.claude/settings.local.json

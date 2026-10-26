@@ -1,0 +1,118 @@
+% Modelo de currículo em português. Para uma vaga nova, copie para
+% vagas/<empresa-cargo>/cv.br.tex e troque o conteúdo. Não mexa nos \begin/\end.
+\newcommand{\cvnome}{Ana Souza}
+\newcommand{\cvrodape}{Página \thepage{} de \pageref*{LastPage}}
+\input{preamble.tex}
+\begin{document}
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Ana Souza}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Belo Horizonte - MG}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:ana.souza@example.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}ana.souza@example.com}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel:+5531900000000}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}+55 (31) 90000-0000}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/ana-souza-exemplo/}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}ana-souza-exemplo}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://github.com/ana-souza-exemplo}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}ana-souza-exemplo}}%
+    \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+    \begin{onecolentry}
+        Analista de Dados com 5 anos transformando dados operacionais em decisões de negócio. Experiência com \textbf{SQL}, \textbf{Python} e \textbf{Power BI} em varejo e logística, do pipeline ao dashboard executivo.
+    \end{onecolentry}
+
+    \vspace{0.25 cm}
+
+    \section{Competências-chave}
+        \begin{onecolentry}
+            \textbf{Dados:} SQL, SQL Server, PostgreSQL, modelagem dimensional, ETL, Azure Data Factory.
+        \end{onecolentry}
+
+        \vspace{0.12 cm}
+
+        \begin{onecolentry}
+            \textbf{Análise e BI:} Power BI, DAX, Python (pandas), Excel avançado, estatística, testes A/B.
+        \end{onecolentry}
+
+        \vspace{0.12 cm}
+
+        \begin{onecolentry}
+            \textbf{Negócio:} storytelling com dados, comunicação com áreas de negócio, indicadores de varejo e logística.
+        \end{onecolentry}
+
+    \section{Experiência profissional}
+        \begin{twocolentry}{
+            \textit{Loja Exemplo S.A.} \\
+            Mar/2022 -- Presente
+        }
+            \textbf{Analista de Dados Pleno}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{25 dashboards} em Power BI usados pela diretoria comercial, substituindo relatórios manuais em Excel.
+                \item Automação da carga diária de vendas de \textbf{120 lojas} com Python e SQL Server, reduzindo o fechamento mensal de 5 para 2 dias.
+                \item Modelagem do data mart de estoque (modelo estrela) que alimenta as previsões de reposição.
+                \item Testes A/B de preço em parceria com o time de marketing.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{
+            \textit{Transportadora Modelo Ltda.} \\
+            Jan/2020 -- Fev/2022
+        }
+            \textbf{Assistente de Dados}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Redução de \textbf{15\%} nas entregas atrasadas ao identificar gargalos de roteirização com análise de dados.
+                \item Relatórios de entregas e SLA para 40 clientes B2B com Excel, VBA e SQL.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Projetos}
+        \begin{twocolentry}{
+            \textit{2023}
+        }
+            \textbf{Painel de Dados Abertos da Saúde}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Dashboard público com dados do DataSUS, atualizado mensalmente com Python e GitHub Actions.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Formação}
+        \begin{twocolentry}{2016 -- 2019}
+            \textbf{Universidade Exemplo} \\
+            Bacharelado em Sistemas de Informação
+        \end{twocolentry}
+
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Certificações e cursos:} Microsoft PL-300 (Power BI Data Analyst, 2023), Formação Python para Dados (Alura, 2021).
+        \end{onecolentry}
+
+    \section{Idiomas}
+        \begin{onecolentry}
+            \textbf{Português} - Nativo \quad\textbar\quad \textbf{Inglês} - Intermediário (leitura técnica fluente)
+        \end{onecolentry}
+\end{document}

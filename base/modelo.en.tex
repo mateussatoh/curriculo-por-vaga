@@ -1,0 +1,118 @@
+% English résumé template. For a new job, copy to
+% vagas/<company-role>/cv.en.tex and replace the content. Keep the \begin/\end lines.
+\newcommand{\cvnome}{Ana Souza}
+\newcommand{\cvrodape}{Page \thepage{} of \pageref*{LastPage}}
+\input{preamble.tex}
+\begin{document}
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Ana Souza}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Belo Horizonte, Brazil}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto:ana.souza@example.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}ana.souza@example.com}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel:+5531900000000}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}+55 31 90000-0000}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/ana-souza-exemplo/}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}ana-souza-exemplo}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://github.com/ana-souza-exemplo}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}ana-souza-exemplo}}%
+    \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+    \begin{onecolentry}
+        Data Analyst with 5 years turning operational data into business decisions. Hands-on with \textbf{SQL}, \textbf{Python} and \textbf{Power BI} in retail and logistics, from pipeline to executive dashboard.
+    \end{onecolentry}
+
+    \vspace{0.25 cm}
+
+    \section{Core Skills}
+        \begin{onecolentry}
+            \textbf{Data:} SQL, SQL Server, PostgreSQL, dimensional modeling, ETL, Azure Data Factory.
+        \end{onecolentry}
+
+        \vspace{0.12 cm}
+
+        \begin{onecolentry}
+            \textbf{Analytics and BI:} Power BI, DAX, Python (pandas), advanced Excel, statistics, A/B testing.
+        \end{onecolentry}
+
+        \vspace{0.12 cm}
+
+        \begin{onecolentry}
+            \textbf{Business:} data storytelling, stakeholder communication, retail and logistics KPIs.
+        \end{onecolentry}
+
+    \section{Experience}
+        \begin{twocolentry}{
+            \textit{Loja Exemplo S.A.} \\
+            Mar 2022 -- Present
+        }
+            \textbf{Data Analyst}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built \textbf{25 Power BI dashboards} used by the sales leadership, replacing manual Excel reports.
+                \item Automated the daily sales load for \textbf{120 stores} with Python and SQL Server, cutting monthly close from 5 to 2 days.
+                \item Modeled the inventory data mart (star schema) that feeds replenishment forecasts.
+                \item Ran pricing A/B tests with the marketing team.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{
+            \textit{Transportadora Modelo Ltda.} \\
+            Jan 2020 -- Feb 2022
+        }
+            \textbf{Data Assistant}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Cut late deliveries by \textbf{15\%} by finding routing bottlenecks through data analysis.
+                \item Delivery and SLA reporting for 40 B2B clients with Excel, VBA and SQL.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Projects}
+        \begin{twocolentry}{
+            \textit{2023}
+        }
+            \textbf{Open Health Data Dashboard}
+        \end{twocolentry}
+        \vspace{0.10cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Public dashboard on DataSUS data, refreshed monthly with Python and GitHub Actions.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Education}
+        \begin{twocolentry}{2016 -- 2019}
+            \textbf{Universidade Exemplo} \\
+            B.Sc. in Information Systems
+        \end{twocolentry}
+
+        \vspace{0.12cm}
+
+        \begin{onecolentry}
+            \textbf{Certifications:} Microsoft PL-300 (Power BI Data Analyst, 2023), Python for Data (Alura, 2021).
+        \end{onecolentry}
+
+    \section{Languages}
+        \begin{onecolentry}
+            \textbf{Portuguese} - Native \quad\textbar\quad \textbf{English} - Intermediate (fluent technical reading)
+        \end{onecolentry}
+\end{document}
